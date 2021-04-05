@@ -45,5 +45,11 @@ export default {
         ]
       })
     }
+  },
+  server: {
+    host: '0.0.0.0',
+    port: 3000
   }
 }
+
+// TOKEN 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
