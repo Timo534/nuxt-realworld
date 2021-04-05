@@ -52,7 +52,7 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
-            script: |
+          script: |
             cd /usr/local/workspace/nuxt-app
             wget https://github.com/Timo534/nuxt-realworld/releases/latest/download/release.tgz -O release.tgz
             tar zxvf release.tgz
